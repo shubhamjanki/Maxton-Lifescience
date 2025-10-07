@@ -30,7 +30,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Logo />
-              <h3 className="text-xl font-semibold text-gray-800">MaxtonLifescience</h3>
+              <h3 className="text-xl font-semibold text-gray-800">Maxton Lifescience</h3>
             </div>
             <p className="text-gray-600 mb-4">
               {/* Add a tagline or description here if desired */}
@@ -92,9 +92,9 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-red-600 mt-0.5" />
                 <div className="text-sm">
-                  <p className="text-gray-800 font-medium">MaxtonLifescience Pvt. Ltd.</p>
+                  <p className="text-gray-800 font-medium">Maxton Lifescience Pvt. Ltd.</p>
                   <p className="text-gray-600">SCO 01, GROUND FLOOR, NEAR SHIVALIK ACADEMY</p>
-                  <p className="text-gray-600">RAJA ROAD, SELAQUI, DEHRADUN, UTTARAKHAND-248197, INDIA</p>
+                  <p className="text-gray-600">RAJA ROAD, SELAQUI, DEHRADUN, UTTARAKHAND-248011, INDIA</p>
                 </div>
               </li>
               <li className="flex items-center space-x-3">
@@ -103,7 +103,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-red-600" />
-                <span className="text-gray-600">info@MaxtonLifescience.com</span>
+                <span className="text-gray-600">info@maxtonlifescience.com</span>
               </li>
             </ul>
           </div>

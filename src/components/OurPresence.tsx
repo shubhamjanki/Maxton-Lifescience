@@ -152,12 +152,12 @@ const OurPresence: React.FC = () => {
                     <div className="flex items-start space-x-3">
                       <MapPin className="w-5 h-5 text-red-500 mt-1 flex-shrink-0" />
                       <div>
-                        <h4 className="font-semibold text-gray-800 text-sm">MaxtonLifescience Lifescience</h4>
-                           <p className="text-gray-800 text-xs">MaxtonLifescience Pvt. Ltd.</p>
+                        <h4 className="font-semibold text-gray-800 text-sm">Maxton Lifescience</h4>
+                           <p className="text-gray-800 text-xs">Maxton Lifescience Pvt. Ltd.</p>
                   {/* <p className="text-gray-600">C/o- </p> */}
                  <p className="text-gray-600 text-xs">SCO 01, GROUND FLOOR, NEAR SHIVALIK ACADEMY</p>
 
-            <p className="text-gray-600  text-xs">RAJA ROAD, SELAQUI, DEHRADUN, UTTARAKHAND-248197, INDIA</p> 
+            <p className="text-gray-600  text-xs">RAJA ROAD, SELAQUI, DEHRADUN, UTTARAKHAND-248011, INDIA</p> 
              
                         <div className="flex items-center mt-2">
                           <div className="flex text-yellow-400 text-xs">
@@ -178,6 +178,7 @@ const OurPresence: React.FC = () => {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold text-gray-800 mb-4 pb-2 border-b border-gray-200">Contact Information</h3>
                 <div className="space-y-4">
+
                   <div className="flex items-start space-x-3">
                     <MapPin className="w-5 h-5 text-gray-500 mt-0.5 flex-shrink-0" />
                     <span className="text-gray-700">
@@ -190,8 +191,8 @@ const OurPresence: React.FC = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-gray-500" />
-                    <a href="mailto:info@MaxtonLifescience.com" className="text-gray-700 hover:text-blue-600 transition-colors">
-                      info@MaxtonLifescience.com
+                    <a href="mailto:info@maxtonlifescience.com" className="text-gray-700 hover:text-blue-600 transition-colors">
+                      info@maxtonlifescience.com
                     </a>
                   </div>
                 </div>

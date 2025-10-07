@@ -36,9 +36,18 @@ const Header: React.FC = () => {
             {/* Logo and Company Name */}
             <div className="flex items-center space-x-4">
               <Logo />
-              <h1 className="text-2xl md:text-3xl font-semibold text-green-600 ml-2">
-                MaxtonLifescience
-              </h1>
+                <div className="flex flex-col ml-2">
+                <h1
+                  className="text-2xl md:text-3xl text-orange-600"
+                  style={{ fontFamily: 'Impact' }}
+                >
+                  Maxton Lifescience
+                </h1>
+                <div className="flex flex-col ">
+                  <span className="block h-1 w-full bg-orange-500 rounded"></span>
+                  <span className="block h-1 w-full bg-green-600 rounded"></span>
+                </div>
+                </div>
             </div>
 
             {/* Desktop Contact Information */}
@@ -46,9 +55,9 @@ const Header: React.FC = () => {
               <div className="flex items-start space-x-2">
                 <MapPin className="w-5 h-5 text-gray-700 mt-1" />
                 <div className="text-sm">
-                  <p className="text-gray-800 font-medium">MaxtonLifescience Pvt.Ltd.</p>
-                  <p className="text-gray-600">SCO 01, GROUND FLOOR, NEAR SHIVALIK ACADEMY</p>
-                  <p className="text-gray-600">RAJA ROAD, SELAQUI, DEHRADUN, UTTARAKHAND-248197, INDIA</p> 
+                    <p className="text-orange-600 text-lg font-bold">Maxton Lifescience Pvt.Ltd.</p>
+                    <p className="text-gray-600">SCO 01, GROUND FLOOR, NEAR SHIVALIK ACADEMY</p>
+                  <p className="text-gray-600">RAJA ROAD, SELAQUI, DEHRADUN, UTTARAKHAND-248011, INDIA</p> 
                 </div>
               </div>
               
@@ -61,10 +70,10 @@ const Header: React.FC = () => {
                 <div className="flex items-center space-x-2">
                   <Mail className="w-5 h-5 text-gray-700" />
                   <a 
-                    href="mailto:MaxtonLifescience@gmail.com" 
+                    href="mailto:maxtonlifescience@gmail.com" 
                     className="text-gray-600 text-sm hover:text-red-600 transition-colors"
                   >
-                    MaxtonLifescience@gmail.com
+                    maxtonlifescience@gmail.com
                     <br /> ajeypandey1515@gmail.com
                   </a>
                 </div>

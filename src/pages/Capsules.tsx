@@ -106,7 +106,11 @@ const Capsules: React.FC = () => {
                 <span className="text-white font-bold text-sm md:text-lg"><Logo/></span>
              
             
-              <h1 className="text-xs md:text-lg font-bold text-gray-800">AAYUVARDAN LIFESCIENCE PVT. LTD.</h1>
+              <h1 className="text-xs md:text-lg font-bold text-gray-800"> Maxton Lifescience Pvt. Ltd</h1>
+               <div className="flex flex-col ">
+                  <span className="block h-1 w-full bg-orange-500 rounded"></span>
+                  <span className="block h-1 w-full bg-green-600 rounded"></span>
+               </div> 
             <div>
             
             </div>

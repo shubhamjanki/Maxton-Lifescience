@@ -40,10 +40,10 @@ const ContactUs: React.FC = () => {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Address',
       details: [
-        'AAYUVARDAN LIFESCIENCE PVT. LTD.',
+        'Maxton Lifescience Pvt. Ltd.',
         'SCO 01, GROUND FLOOR, NEAR SHIVALIK ACADEMY,',
         'RAJA ROAD, SELAQUI, DEHRADUN, ',
-        'UTTARAKHAND-248197, INDIA'
+        'UTTARAKHAND-248011, INDIA'
       ]
     },
     {
@@ -54,7 +54,7 @@ const ContactUs: React.FC = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-details: ['MaxtonLifescience@gmail.com', 'ajeypandey1515@gmail.com']
+details: ['maxtonlifescience@gmail.com', 'ajeypandey1515@gmail.com']
     },
     // {
     //   icon: <Clock className="w-6 h-6" />,

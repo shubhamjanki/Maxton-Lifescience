@@ -51,7 +51,7 @@ const AboutUs: React.FC = () => {
               <div className="text-center mb-8">
                 <div className="flex items-center justify-center mb-4">
                     <span className="text-white font-bold text-xl   "><Logo/></span>
-                             <h2 className="text-2xl font-bold text-green-600">MaxtonLifescience Pvt. Ltd.</h2>
+                             <h2 className="text-2xl font-bold text-green-600">Maxton Lifescience Pvt. Ltd.</h2>
                 </div>
                 <div className="w-full h-1 bg-gradient-to-r from-green-500 via-red-500 to-green-500 rounded"></div>
               </div>

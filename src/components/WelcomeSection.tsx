@@ -6,7 +6,7 @@ const WelcomeSection: React.FC = () => {
     {
       icon: <Info className="w-12 h-12 text-blue-500" />,
       title: 'ABOUT US',
-      description: 'Aayuvardan is well recognized, integrated pharmaceutical company with core competencies in Marketing and Exporting highly effective medicines that are used in the treatment of various ailments and diseases.',
+      description: 'Maxton Lifescience is well recognized, integrated pharmaceutical company with core competencies in Marketing and Exporting highly effective medicines that are used in the treatment of various ailments and diseases.',
       link: '/about-us'
     },
     {
@@ -26,7 +26,7 @@ const WelcomeSection: React.FC = () => {
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-4">Welcome to Aayuvardan</h2>
+        <h2 className="text-3xl font-bold text-center mb-4">Welcome to Maxton Lifescience</h2>
         <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
           We are a well recognized and integrated pharmaceutical company with core competencies in Marketing and Exporting. The highly effective medicines that we export are used in treatment of various ailments and diseases.
         </p>

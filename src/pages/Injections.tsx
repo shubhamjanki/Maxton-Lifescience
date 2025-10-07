@@ -104,7 +104,7 @@ const Injection: React.FC = () => {
                 <span className="text-white font-bold text-sm md:text-lg"><Logo/></span>
              
                         <div>
-              <h1 className="text-xs md:text-lg font-bold text-gray-800">MaxtonLifescience Pvt. Ltd.</h1>
+              <h1 className="text-xs md:text-lg font-bold text-gray-800">Maxton Lifescience Pvt. Ltd.</h1>
                
             </div>
           </div>
