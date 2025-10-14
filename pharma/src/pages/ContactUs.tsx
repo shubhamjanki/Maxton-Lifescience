@@ -54,7 +54,7 @@ const ContactUs: React.FC = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-details: ['maxtonlifescience@gmail.com', 'ajeypandey1515@gmail.com']
+details: ['maxtonlifescience5@gmail.com', 'ajeypandey1515@gmail.com']
     },
     // {
     //   icon: <Clock className="w-6 h-6" />,

@@ -21,10 +21,10 @@ const Header: React.FC = () => {
       <div className="bg-gray-50 py-2 px-4 md:px-8">
         <div className="container mx-auto">
           <a 
-            href="mailto:maxtonlifescience@gmail.com" 
+            href="mailto:maxtonlifescience5@gmail.com" 
             className="text-gray-600 text-sm hidden md:block hover:text-red-600 transition-colors"
           >
-            info@maxtonlifescience.com
+            maxtonlifescience5@gmail.com
           </a>
         </div>
       </div>
@@ -70,10 +70,10 @@ const Header: React.FC = () => {
                 <div className="flex items-center space-x-2">
                   <Mail className="w-5 h-5 text-gray-700" />
                   <a 
-                    href="mailto:maxtonlifescience@gmail.com" 
+                    href="mailto:maxtonlifescience5@gmail.com" 
                     className="text-gray-600 text-sm hover:text-red-600 transition-colors"
                   >
-                    maxtonlifescience@gmail.com
+                    maxtonlifescience5@gmail.com
                     <br /> ajeypandey1515@gmail.com
                   </a>
                 </div>

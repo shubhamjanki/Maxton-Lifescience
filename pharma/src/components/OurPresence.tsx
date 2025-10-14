@@ -191,8 +191,8 @@ const OurPresence: React.FC = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-gray-500" />
-                    <a href="mailto:info@maxtonlifescience.com" className="text-gray-700 hover:text-blue-600 transition-colors">
-                      info@maxtonlifescience.com
+                    <a href="mailto:maxtonlifescience5@gmail.com" className="text-gray-700 hover:text-blue-600 transition-colors">
+                      maxtonlifescience5@gmail.com
                     </a>
                   </div>
                 </div>
