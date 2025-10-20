@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
 import Logo from './Logo';
-
 const Footer = () => {
   const quickLinks = [
     { name: 'Home', href: '/' },
@@ -16,9 +15,10 @@ const Footer = () => {
   const productLinks = [
     { name: 'Tablets', href: '/tablets' },
     { name: 'Capsules', href: '/capsules' },
-    { name: 'Dry Syrups', href: 'dry-syrups' },
-    { name: 'Ointments', href: 'ointments' },
-    { name: 'Powder & Liquid Orals', href: 'orals' },
+    { name: 'Dry Syrups', href: '/syrups' },
+    { name: 'Ointments', href: '/ointments' },
+    { name: 'Powder & Liquid Orals', href: '/syrups' },
+    { name: 'Injections', href: '/injections' }
    ,
   ];
 
@@ -93,7 +93,7 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-red-600 mt-0.5" />
                 <div className="text-sm">
                   <p className="text-orange-600 text-lg font-bold">Maxton Lifescience Pvt. Ltd.</p>
-                  <p className="text-gray-600">SCO 01, GROUND FLOOR, NEAR SHIVALIK ACADEMY</p>
+                  <p className="text-gray-600">NR. SHIVALIK ACADEMY</p>
                   <p className="text-gray-600">RAJA ROAD, SELAQUI, DEHRADUN, UTTARAKHAND-248011, INDIA</p>
                 </div>
               </li>

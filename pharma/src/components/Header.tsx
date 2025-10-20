@@ -56,7 +56,7 @@ const Header: React.FC = () => {
                 <MapPin className="w-5 h-5 text-gray-700 mt-1" />
                 <div className="text-sm">
                     <p className="text-orange-600 text-lg font-bold">Maxton Lifescience Pvt.Ltd.</p>
-                    <p className="text-gray-600">SCO 01, GROUND FLOOR, NEAR SHIVALIK ACADEMY</p>
+                    <p className="text-gray-600"> NR. SHIVALIK ACADEMY</p>
                   <p className="text-gray-600">RAJA ROAD, SELAQUI, DEHRADUN, UTTARAKHAND-248011, INDIA</p> 
                 </div>
               </div>

@@ -49,10 +49,19 @@ const Syrups: React.FC = () => {
   }, [searchTerm]);
 
   // Handle search
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSearchTerm(searchInput);
-  };
+  // const handleSearch = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   setSearchTerm(searchInput);
+  // };
+// Debounce search input to update searchTerm automatically
+useEffect(() => {
+  const delay = setTimeout(() => {
+    setSearchTerm(searchInput.trim());
+  }, 400); // wait 400ms after typing stops
+
+  return () => clearTimeout(delay); // cleanup on new keystroke
+}, [searchInput]);
+
 
   const handlePageChange = (page: number) => {
     if (page >= 1 && page <= totalPages) {
@@ -117,7 +126,7 @@ const Syrups: React.FC = () => {
       {/* Search Section */}
       <div className="bg-gray-100 py-4 md:py-6">
         <div className="container mx-auto px-4">
-          <form onSubmit={handleSearch} className="flex flex-col sm:flex-row gap-4 items-center justify-center">
+          <form className="flex flex-col sm:flex-row gap-4 items-center justify-center">
             <div className="relative flex-1 max-w-md">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
               <input
@@ -128,12 +137,12 @@ const Syrups: React.FC = () => {
                 className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm md:text-base"
               />
             </div>
-            <button
+            {/* <button
               type="submit"
               className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors font-medium text-sm md:text-base"
             >
               Search
-            </button>
+            </button> */}
           </form>
           
           {/* Search Results Info */}
